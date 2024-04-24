@@ -26,4 +26,5 @@
         - [Download](https://www.anaconda.com/download)
         - [Installation](https://docs.anaconda.com/free/anaconda/install/linux/)
         - Installation from ~/Downloads
+        - `which -p conda'`
     - [NordVPN](https://nordvpn.com/offer/download/linux/?vpn=brand&nc=Search_-_Canada_-_Brand_+_Generic_-_Exact+Phrase_-_EN_-_DMT_-_USD&ns=google&nm=cpc&nt=nordvpn%20linux&gad_source=1&gclid=CjwKCAjw26KxBhBDEiwAu6KXt4OJ4wDqfa1xy-fR75WhaF3dcLMx5qw-fe20BdDtouIYYgWjV6nJwhoCFPoQAvD_BwE)
