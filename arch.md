@@ -24,8 +24,12 @@
       - `vim /etc/sudoers`
       - Uncomment the line: `%wheel ALL=(ALL:ALL) ALL`
     - Wayland support with NVIDIA: [guide](https://wiki.archlinux.org/title/NVIDIA)
+      - `cat <<EOF>> /etc/modprobe.d/nvidia-drm-nomodset.conf`
+      - `options nvidia-drm modeset=1`
+      - `EOF`
+      - `reboot`
     - yay [installation](https://itsfoss.com/install-yay-arch-linux/)
-    - Installation of basic applications: Chrome, Jetbrains, conda and NordVPN
+    - Installation of basic applications: Chrome, Jetbrains, conda and NordVPN, paru
     - Updating tldr: `tldr --update`
     - [OhMyZsh](https://ohmyz.sh/) installation and modification to .zshrc file with the addition of:
         - tmux
