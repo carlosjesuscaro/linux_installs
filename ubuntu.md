@@ -13,13 +13,14 @@
         - `sudo apt install nala -y`
         - `sudo nala fetch`
         - Choose the closest repositories: 1 2 3
-    - Installation of additional packages: <br> `sudo nala install git vim wget curl tmux htop tree exa mc screenfetch cmatrix tasksel tldr zsh tar`
+    - Installation of additional packages: <br> `sudo nala install git vim wget curl tmux htop tree exa mc fzf screenfetch cmatrix tasksel tldr zsh tar`
     - Updating tldr: `tldr --update`
     - Konsole profile configuration
     - Tasksel setup: `sudo tasksel` and then `reboot`
     - [OhMyZsh](https://ohmyz.sh/) installation and modification to .zshrc file with the addition of:
         - tmux
         - alias update='sudo apt update && sudo apt upgrade -y'
+        - alias fzfq='vim $(fzf --preview="cat {}")'
     - [Google Chrome](https://www.google.com/intl/en_ca/chrome/browser-tools/?_gl=1*s5hvhi*_up*MQ..&gclid=CjwKCAjw26KxBhBDEiwAu6KXt_e_dRbUCJ1vUH1odxXLxlWIO1XV-5hSB9Yu95_h-CX7pVosoG83VxoC9rYQAvD_BwE&gclsrc=aw.ds)
     - [Jetbrains](https://www.jetbrains.com/toolbox-app/)
     - Conda
