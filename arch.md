@@ -40,8 +40,8 @@
         - alias fzfq='vim $(fzf --preview="cat {}")'
     - Mounting an external drive:
       - `sudo vim /etc/fstab`
-      - `# /dev/nvme0n1
-        UUID=a0fa3b64-2178-4f28-8047-67a82547680c       /home/carlos/Data   ext4            rw,relatime     0 3`
+      - `# /dev/nvme0n1`
+      - `UUID=a0fa3b64-2178-4f28-8047-67a82547680c       /home/carlos/Data   ext4            rw,relatime     0 3`
 - Maintenance
   - In case there is a corruption on the Arch package database:
     - [Article](https://bbs.archlinux.org/viewtopic.php?id=262288)
