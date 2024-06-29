@@ -33,7 +33,17 @@
     - Updating tldr: `tldr --update`
     - [OhMyZsh](https://ohmyz.sh/) installation and modification to .zshrc file with the addition of:
         - tmux
+        - tldr --update
         - alias update='sudo pacman -Syu'
         - alias poweroff='shutdown -h now'
         - alias clean='sudo pacman -R $(pacman -Qtdq)'
         - alias fzfq='vim $(fzf --preview="cat {}")'
+    - Mounting an external drive:
+      - `sudo vim /etc/fstab`
+      - `# /dev/nvme0n1
+        UUID=a0fa3b64-2178-4f28-8047-67a82547680c       /home/carlos/Data   ext4            rw,relatime     0 3`
+- Maintenance
+  - In case there is a corruption on the Arch package database:
+    - [Article](https://bbs.archlinux.org/viewtopic.php?id=262288)
+    - Command: `sudo pacman -Syy --overwrite $(pacman -Qnq)`
+  - Issues with Chrome not starting as there is already another instance running. Command: `rm -rf ~/.config/google-chrome/Singleton*`
