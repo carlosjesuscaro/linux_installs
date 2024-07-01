@@ -47,3 +47,6 @@
     - [Article](https://bbs.archlinux.org/viewtopic.php?id=262288)
     - Command: `sudo pacman -Syy --overwrite $(pacman -Qnq)`
   - Issues with Chrome not starting as there is already another instance running. Command: `rm -rf ~/.config/google-chrome/Singleton*`
+  - Panel issues (taskbar) where icons disappear after hovering: 
+    - `kcmshell6 qtquicksettings`
+    - Choose 'OpenGL' as rendering engine
