@@ -11,7 +11,7 @@
     - Only 2 partitions are required:
       - /: as ext4 (type 23)
       - /boot: as EFI (type 1)
-    - Packages to install: <br> `pacman -S base-devel dosfstools grub efibootmgr plasma sddm mtools nano networkmanager os-prober sudo tmux tldr wget curl git vim htop tree tar zsh exa mc dolphin konsole falkon cmatrix screenfetch zip unzip fzf inetutils pipewire wireplumber pipewire-alsa pipewire-pulse sof-firmware bluez bluez-utils`
+    - Packages to install: <br> `pacman -S base-devel dosfstools grub efibootmgr plasma sddm mtools nano networkmanager os-prober sudo tmux tldr wget curl git vim htop tree tar zsh exa mc dolphin konsole falkon cmatrix screenfetch zip unzip fzf inetutils pipewire wireplumber pipewire-alsa pipewire-pulse sof-firmware bluez bluez-utils exa bat fzf fastfetch`
     - Enabling bluetooth: `systemctl enable bluetooth.service`
     - Grub configuration modifications:
       - `vim /etc/default/grub`
@@ -33,15 +33,24 @@
     - Updating tldr: `tldr --update`
     - [OhMyZsh](https://ohmyz.sh/) installation and modification to .zshrc file with the addition of:
         - tmux
-        - tldr --update
+        - fastfetch
+        - tldr --update (Optional as it could take too long to load)
         - alias update='sudo pacman -Syu'
         - alias poweroff='shutdown -h now'
         - alias clean='sudo pacman -R $(pacman -Qtdq)'
         - alias fzfq='vim $(fzf --preview="cat {}")'
+        - alias exaq='exa --oneline --long --all --tree --level=2'
     - Mounting an external drive:
       - `sudo vim /etc/fstab`
       - `# /dev/nvme0n1`
       - `UUID=a0fa3b64-2178-4f28-8047-67a82547680c       /home/carlos/Data   ext4            rw,relatime     0 3`
+- Productivity commands
+  - tmux
+  - bat
+  - exa
+  - fzf
+  - zsh
+  - rg (a.k.a ripgrep)
 - Maintenance
   - In case there is a corruption on the Arch package database:
     - [Article](https://bbs.archlinux.org/viewtopic.php?id=262288)
