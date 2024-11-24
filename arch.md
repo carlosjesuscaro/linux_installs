@@ -35,6 +35,7 @@
         - tmux
         - fastfetch
         - tldr --update (Optional as it could take too long to load)
+        - [powerlevel10k](https://dev.to/trevorzylks/using-powerlevel10k-to-customize-zsh-4f8o)
         - alias update='sudo pacman -Syu'
         - alias poweroff='shutdown -h now'
         - alias clean='sudo pacman -R $(pacman -Qtdq)'
