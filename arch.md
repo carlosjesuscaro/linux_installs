@@ -60,3 +60,6 @@
   - Panel issues (taskbar) where icons disappear after hovering: 
     - `kcmshell6 qtquicksettings`
     - Choose 'OpenGL' as rendering engine
+
+## Observations
+- In the case of Manjaro, the package `base-devel` is not installed by default but iut is required for multiple operations including manual updated through the terminal.
