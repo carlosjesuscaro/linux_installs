@@ -22,6 +22,13 @@
         - [NordVPN](https://nordvpn.com/offer/download/linux/?vpn=brand&nc=Search_-_Canada_-_Brand_+_Generic_-_Exact+Phrase_-_EN_-_DMT_-_USD&ns=google&nm=cpc&nt=nordvpn%20linux&gad_source=1&gclid=CjwKCAjw26KxBhBDEiwAu6KXt4OJ4wDqfa1xy-fR75WhaF3dcLMx5qw-fe20BdDtouIYYgWjV6nJwhoCFPoQAvD_BwE)
         - [OhMyZsh](https://ohmyz.sh/) installation and modification to .zshrc file with the addition of:
             - tmux
+              - Creating new sessions keeping the current path:
+                - `vim ~/.tmux.conf`
+                - `bind c new-window -c "#{pane_current_path}"`
+                - `bind % split-window -h -c "#{pane_current_path}"`
+                - `bind '"' split-window -v -c "#{pane_current_path}"`
+                - `:wq`
+                - `tmux source-file ~/.tmux.conf`
             - alias update='sudo apt update && sudo apt upgrade -y'
             - alias fzfq='vim $(fzf --preview="cat {}")'
             - alias exaq='exa --oneline --long --all --tree --level=2'

@@ -46,7 +46,14 @@
       - `# /dev/nvme0n1`
       - `UUID=a0fa3b64-2178-4f28-8047-67a82547680c       /home/carlos/Data   ext4            rw,relatime     0 3`
 - Productivity commands
-  - tmux
+  - tmux 
+    - Creating new sessions keeping the current path: 
+      - `vim ~/.tmux.conf`
+      - `bind c new-window -c "#{pane_current_path}"`
+      - `bind % split-window -h -c "#{pane_current_path}"`
+      - `bind '"' split-window -v -c "#{pane_current_path}"`
+      - `:wq`
+      - `tmux source-file ~/.tmux.conf`
   - bat
   - exa
   - fzf
