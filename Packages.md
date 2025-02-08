@@ -1,0 +1,21 @@
+# Key packages to install
+
+- git
+- curl
+- wget
+- tmux
+- exa
+- fzf
+- rg
+- bat
+- zsh
+- tldr
+- tree
+- htop
+- btop
+- glance
+- zip
+- unzip
+- mc
+- screenfetch
+- docker
