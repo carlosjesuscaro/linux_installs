@@ -19,3 +19,4 @@
 - mc
 - screenfetch
 - docker
+- expect
