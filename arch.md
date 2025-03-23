@@ -11,7 +11,7 @@
     - Only 2 partitions are required:
       - /: as ext4 (type 23)
       - /boot: as EFI (type 1)
-    - Packages to install: <br> `pacman -S base-devel dosfstools grub efibootmgr plasma sddm mtools nano networkmanager os-prober sudo tmux tldr wget curl git vim htop tree tar zsh exa mc dolphin konsole falkon cmatrix screenfetch zip unzip fzf inetutils pipewire wireplumber pipewire-alsa pipewire-pulse sof-firmware bluez bluez-utils exa bat fzf fastfetch`
+    - Packages to install: <br> `pacman -S base-devel dosfstools grub efibootmgr plasma sddm mtools nano networkmanager os-prober sudo tmux tldr wget curl git vim htop tree tar zsh exa mc dolphin konsole falkon cmatrix screenfetch zip unzip fzf inetutils pipewire wireplumber pipewire-alsa pipewire-pulse sof-firmware bluez bluez-utils exa bat fzf fastfetch net-tools github-cli`
     - Enabling bluetooth: `systemctl enable bluetooth.service`
     - Grub configuration modifications:
       - `vim /etc/default/grub`

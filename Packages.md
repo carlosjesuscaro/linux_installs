@@ -1,6 +1,8 @@
 # Key packages to install
 
 - git
+- github-cli
+- net-tools
 - curl
 - wget
 - tmux

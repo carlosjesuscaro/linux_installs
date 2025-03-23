@@ -13,7 +13,7 @@
           - `sudo apt install nala -y`
           - `sudo nala fetch`
           - Choose the closest repositories: 1 2 3
-      - Installation of additional packages: <br> `sudo nala install git vim wget curl tmux htop tree exa mc fzf screenfetch cmatrix tasksel tldr zsh tar`
+      - Installation of additional packages: <br> `sudo nala install git vim wget curl tmux htop tree exa mc fzf screenfetch cmatrix tasksel tldr zsh tar net-tools github-cli`
         - Updating tldr: `tldr --update`
         - Konsole profile configuration
         - Tasksel setup: `sudo tasksel` and then `reboot`
