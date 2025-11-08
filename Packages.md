@@ -1,24 +1,35 @@
-# Key packages to install
+# Development
+- ansible
+- awscli 
+- azure-cli 
+- google-cloud-sdk 
+- jetbrains-toolbox 
+- kubectl
+- minikube
+- python3 
+- R
+- terraform
+- virtualbox
+- vscode
 
-- git
-- github-cli
+# Shell & Utilities
+- bat 
+- btop 
+- curl 
+- fzf 
+- lazygit
 - net-tools
-- curl
-- wget
-- tmux
-- exa
-- fzf
-- rg
-- bat
-- zsh
-- tldr
-- tree
-- htop
-- btop
-- glance
-- zip
-- unzip
-- mc
-- screenfetch
-- docker
-- expect
+- nmap
+- ncdu 
+- ripgrep 
+- tldr 
+- unzip 
+- wget 
+- wireshark 
+- xclip 
+- zip 
+
+# Web Browsers
+- brave-browser
+- firefox 
+- google-chrome
