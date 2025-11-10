@@ -2,6 +2,8 @@
 - ansible
 - awscli 
 - azure-cli 
+- docker
+- eza
 - google-cloud-sdk 
 - jetbrains-toolbox 
 - kubectl
@@ -9,6 +11,7 @@
 - python3 
 - R
 - terraform
+- vagrant
 - virtualbox
 - vscode
 
@@ -28,6 +31,7 @@
 - wireshark 
 - xclip 
 - zip 
+- zsh
 
 # Web Browsers
 - brave-browser
