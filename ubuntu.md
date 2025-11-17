@@ -33,7 +33,7 @@
             - alias fzfq='vim $(fzf --preview="cat {}")'
             - alias exaq='exa --oneline --long --all --tree --level=2'
             - [powerlevel10k](https://dev.to/trevorzylks/using-powerlevel10k-to-customize-zsh-4f8o)
-            - Conda
+            - Conda (ARCHIVED)
                 - [Download](https://www.anaconda.com/download)
                 - [Installation](https://docs.anaconda.com/free/anaconda/install/linux/)
                 - Installation from ~/Downloads
