@@ -25,6 +25,7 @@
 - nmap
 - ncdu 
 - ripgrep 
+- screenfetch
 - tldr 
 - unzip 
 - wget 
