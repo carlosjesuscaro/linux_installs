@@ -26,8 +26,10 @@
 - ncdu 
 - ripgrep 
 - screenfetch
+- thermald
 - tldr 
 - unzip 
+- vitals
 - wget 
 - wireshark 
 - xclip 
